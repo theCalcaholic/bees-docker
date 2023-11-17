@@ -2,7 +2,7 @@
 
 ## Description
 
-Docker container for [bees](https://zygo.github.io/bees/).
+Docker image build recipe for [bees](https://zygo.github.io/bees/).
 
 Since bees only has installable packages for Arch and Gentoo, I created a very simple Dockerfile to be distro independent for my btrfs deduplication needs.
 
