@@ -22,7 +22,7 @@ The container is nothing but a simple wrapper around the beesd script provided b
 3. Create a config file for beesd
     ```sh
     sudo mkdir -p /etc/bees
-    sudo wget -O /etc/bees/my-disk.conf https://github.com/Zygo/bees/blob/master/scripts/beesd.conf.sample
+    sudo wget -O /etc/bees/my-disk.conf https://raw.githubusercontent.com/Zygo/bees/master/scripts/beesd.conf.sample
     # then edit at least the UUID in /etc/bees/my-disk.conf
     ```
 4. Run the docker container in privileged mode
